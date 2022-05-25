@@ -1,0 +1,16 @@
+/* .HomePage{
+  border: 2px solid red;
+  height: 100vh;
+  color: black;
+} */
+
+#myCarousel{
+  margin-top: 100px;
+  height: 500px;
+  border: 2px solid green;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border:  2px solid green;
+}
