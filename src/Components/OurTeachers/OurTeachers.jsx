@@ -1,11 +1,13 @@
 import React from 'react';
 import "./OurTeachers.css"
+import Title from '../Title/Title';
 
 const OurTeachers = () => {
+  const name="Our Teachers"
   return (
-    <div>
+    <div className='OurTeachers'>
       <div className="container px-4 py-5" id="icon-grid">
-        <h2 className="pb-2 text-center border-bottom">Icon grid</h2>
+        <Title title={name}/>
 
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
 
