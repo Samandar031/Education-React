@@ -344,32 +344,32 @@ const Caruser = ({img}) => {
             <li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Share to News Feed</a></li>
           </ul>
         </li>
-        <!-- Card share action END -->
+        {/* <!-- Card share action END --> */}
       </ul>
-      <!-- Feed react END -->
+      {/* <!-- Feed react END --> */}
 
-      <!-- Add comment -->
+      {/* <!-- Add comment --> */}
       <div class="d-flex mb-3">
-        <!-- Avatar -->
+        {/* <!-- Avatar --> */}
         <div class="avatar avatar-xs me-2">
-          <a href="#!"> <img class="avatar-img rounded-circle" src="assets/images/avatar/12.jpg" alt=""> </a>
+          <a href="#!"> <img class="avatar-img rounded-circle" src="assets/images/avatar/12.jpg" alt=""/> </a>
         </div>
-        <!-- Comment box  -->
+        {/* <!-- Comment box  --> */}
         <form class="w-100">
           <textarea data-autoresize="" class="form-control pe-4 bg-light" rows="1" placeholder="Add a comment..."></textarea>
         </form>
       </div>
-      <!-- Comment wrap START -->
+      {/* <!-- Comment wrap START --> */}
       <ul class="comment-wrap list-unstyled">
-        <!-- Comment item START -->
+        {/* <!-- Comment item START --> */}
         <li class="comment-item">
           <div class="d-flex position-relative">
-            <!-- Avatar -->
+            {/* <!-- Avatar --> */}
             <div class="avatar avatar-xs">
-              <a href="#!"><img class="avatar-img rounded-circle" src="assets/images/avatar/05.jpg" alt=""></a>
+              <a href="#!"><img class="avatar-img rounded-circle" src="assets/images/avatar/05.jpg" alt=""/></a>
             </div>
             <div class="ms-2">
-              <!-- Comment by -->
+              {/* <!-- Comment by --> */}
               <div class="bg-light rounded-start-top-0 p-3 rounded">
                 <div class="d-flex justify-content-between">
                   <h6 class="mb-1"> <a href="#!"> Frances Guerrero </a></h6>
