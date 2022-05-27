@@ -2,6 +2,8 @@ import React from 'react';
 import "./Caruser.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faAngry, faCoffee } from '@fortawesome/free-solid-svg-icons';
+import img from "../../img/woliul-hasan-atNNDyP-3hE-unsplash.jpg"
+import img1 from "../img/woliul-hasan-atNNDyP-3hE-unsplash.jpg"
 
 
 
@@ -11,17 +13,19 @@ const Caruser = ({img}) => {
     <div className="Caruser">
           <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
           <FontAwesomeIcon icon={faAngry}></FontAwesomeIcon>
+          <img src={img}/>
+          <img src={img1} />
 
        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="..." className="d-block w-100" alt="..."/>
+            <img src={img1} className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src={img} className="d-block w-100" alt="..."/>
+            <img src={img1} className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src="../../../img/woliul-hasan-atNNDyP-3hE-unsplash.jpg" className="d-block w-100" alt="..."/>
+            <img src={img1} className="d-block w-100" alt="..."/>
           </div>
         </div>
 

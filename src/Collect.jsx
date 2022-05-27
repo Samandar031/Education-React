@@ -12,7 +12,6 @@ import Sign from './Components/Sign/Sign';
 import Contact from './Components/Contact/Contact';
 import Caruser from './Components/Caruser/Caruser';
 
-import img from "../img/woliul-hasan-atNNDyP-3hE-unsplash.jpg";
 
 
 
@@ -31,7 +30,7 @@ const Collect = () => {
       <Sign/>
       <Contact/>
       <Navbar/>
-      <Caruser img={img}/>
+      <Caruser />
     </div>
   );
 };
