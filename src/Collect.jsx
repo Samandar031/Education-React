@@ -10,7 +10,6 @@ import Comentary from './Components/Comentary/Comentary';
 import Blog from './Components/Blog/Blog';
 import Sign from './Components/Sign/Sign';
 import Contact from './Components/Contact/Contact';
-import Caruser from './Components/Caruser/Caruser';
 
 
 
@@ -30,7 +29,6 @@ const Collect = () => {
       <Sign/>
       <Contact/>
       <Navbar/>
-      <Caruser />
     </div>
   );
 };
