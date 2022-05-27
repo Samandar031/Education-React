@@ -1,7 +1,6 @@
 import React from 'react';
 import "./HomePage.css"
-import img1 from "../img/woliul-hasan-atNNDyP-3hE-unsplash.jpg"
-
+import "../Style/HomePage.css"
 const HomePage = () => {
   return (
     <div className='HomePage'>
